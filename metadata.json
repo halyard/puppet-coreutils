@@ -1,0 +1,14 @@
+{
+  "name": "puppet-coreutils",
+  "version": "0.0.1",
+  "author": "akerl",
+  "summary": "Configure coreutils and related utilities on OSX",
+  "license": "MIT",
+  "source": "https://github.com/halyard/puppet-coreutils",
+  "project_page": "https://github.com/halyard/puppet-coreutils",
+  "issues_url": "https://github.com/halyard/puppet-coreutils/issues",
+  "dependencies": [
+  ],
+  "operatingsystem_support": [
+  ]
+}
