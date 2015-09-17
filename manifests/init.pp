@@ -33,4 +33,9 @@ class coreutils (
     ],
     require => Homebrew::Tap['homebrew/dupes']
   }
+
+  file { '/usr/local/bin/stty':
+    ensure => 'link',
+    target => '/bin/stty'
+  }
 }
