@@ -1,19 +1,19 @@
-coreutils
-==============
+puppet-coreutils
+===========
 
-[![Module Version](https://img.shields.io/puppetforge/v/akerl/coreutils.svg)](https://forge.puppetlabs.com/akerl/coreutils)
-[![Module Score](https://img.shields.io/puppetforge/f/akerl/coreutils.svg)](https://forge.puppetlabs.com/akerl/coreutils/scores)
-[![Dependency Status](https://img.shields.io/gemnasium/akerl/coreutils.svg)](https://gemnasium.com/akerl/coreutils)
-[![Build Status](https://img.shields.io/travis/akerl/coreutils.svg)](https://travis-ci.org/akerl/coreutils)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/halyard/coreutils.svg)](https://forge.puppetlabs.com/halyard/coreutils)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
+[![Build Status](https://img.shields.io/circleci/project/halyard/puppet-coreutils.svg)](https://circleci.com/gh/halyard/puppet-coreutils)
 
-Short description
+Install and configure coreutils on OSX
 
 ## Usage
 
-## Setup
+```puppet
+include coreutils
+```
 
-## License
+## Required Puppet Modules
 
-coreutils is released under the MIT License. See the bundled LICENSE file for details.
+* `boxen`
 

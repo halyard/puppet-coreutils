@@ -31,7 +31,7 @@ class coreutils (
       '--build-from-source',
       '--with-default-names'
     ],
-    require => Homebrew::Tap['homebrew/dupes']
+    require         => Homebrew::Tap['homebrew/dupes']
   }
 
   file { '/usr/local/bin/stty':

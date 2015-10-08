@@ -1,14 +1,22 @@
 {
-  "name": "puppet-coreutils",
-  "version": "0.0.1",
-  "author": "akerl",
-  "summary": "Configure coreutils and related utilities on OSX",
+  "name": "halyard-coreutils",
+  "version": "0.1.0",
+  "author": "Les Aker",
   "license": "MIT",
+  "summary": "Configure coreutils via Boxen",
   "source": "https://github.com/halyard/puppet-coreutils",
   "project_page": "https://github.com/halyard/puppet-coreutils",
   "issues_url": "https://github.com/halyard/puppet-coreutils/issues",
   "dependencies": [
+
   ],
   "operatingsystem_support": [
+    {
+      "operatingsystem": "Darwin",
+      "operatingsystemmajrelease": [
+        "14",
+        "15"
+      ]
+    }
   ]
 }
