@@ -21,7 +21,8 @@ class coreutils (
     'htop-osx',
     'netcat',
     'pwgen',
-    'nmap'
+    'nmap',
+    'ag'
   ]:
     require => Homebrew::Tap['homebrew/dupes']
   }
