@@ -22,7 +22,7 @@ class coreutils (
     'netcat',
     'pwgen',
     'nmap',
-    'ag'
+    'the_silver_searcher'
   ]:
     require => Homebrew::Tap['homebrew/dupes']
   }
