@@ -22,7 +22,8 @@ class coreutils (
     'netcat',
     'pwgen',
     'nmap',
-    'the_silver_searcher'
+    'the_silver_searcher',
+    'cmake'
   ]:
     require => Homebrew::Tap['homebrew/dupes']
   }
