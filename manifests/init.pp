@@ -18,6 +18,7 @@ class coreutils (
     'coreutils',
     'findutils',
     'gnu-tar',
+    'gnu-sed'
     'htop-osx',
     'netcat',
     'pwgen',
